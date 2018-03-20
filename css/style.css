@@ -1,0 +1,265 @@
+*{margin: 0; padding: 0}
+
+@font-face{
+    font-family:'Glyphicons Halflings';
+    src:url(../assets/fonts/glyphicons-halflings-regular.eot);
+}
+
+.header{
+    
+    width: 100%;
+    height: 60px;
+    background-color: rgba(25, 30, 36, 1);
+    opacity: 0.7;
+    font-family: Helvetica;
+    
+}
+
+.header_second{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 100px;
+    opacity: 0.7;
+    background-color: #E8EDF3;
+    z-index: 0;
+}
+
+.header_second .discription{
+    position: relative;
+    transform: translate(4%, 270%);
+    
+}
+
+.header_third{
+    width: 100%;
+    height: 0px;
+    opacity: 0.94;
+    background-color: #E8EDF3;
+    transition: 0.5s;
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+}
+
+.header_third .product_discrip{
+   position: relative;
+   background: url('../assets/cuphead1.jpg') no-repeat;
+   width: 300px;
+   height: 0px;
+   left: 30px;
+   top: 30px;
+   background-size: cover;
+   
+}
+/* 
+.header_third .product_discrip2{
+    position: relative;
+    background: url('../assets/dumb1.jpg') no-repeat;
+    width: 300px;
+    height: 0px;
+    top: -100px;
+    left: 370px;
+    background-size: cover;
+    
+ } */
+
+.header_wrapper{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+
+.header_child{
+    float: left;
+    
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.profile_name{
+    border: 1px solid rgb(190, 197, 206);
+    transform: translate(20%, 30%);
+    width: 127px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    
+
+}
+
+.menu{
+    font-size: 13px;
+    transform: translate(10%, 180%);
+    
+}
+.menu span{
+    margin: 0 20px;
+    transition: 0.5s;
+    letter-spacing: 7px;
+}
+
+.menu span:hover{
+    color: rgb(144, 154, 165);
+}
+
+.first_background{
+    width: 100%;
+    height: 600px;
+    background: url('../assets/background4.jpg');
+    background-size: cover;
+    margin-top: 10%;
+}
+
+.product_about{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.product_img{
+    height: 100%;
+    width: 40%;
+    background: url('../assets/norde.gif');
+    float: left;
+    background-size: cover;
+}
+
+.product_detail{
+    height: 100%;
+    width: 50%;
+    float: left;
+    line-height: 40px;
+    font-family: 'Glyphicons Halflings';
+    padding: 80px 0 0 40px;;
+    color: #091832;
+}
+
+.product_detail p{
+    font-weight: lighter;
+}
+
+.second_background{
+    background: url('../assets/background3.jpg');
+    width: 100%;
+    height: 630px;
+    background-size: cover;
+    background-position: center -80px;
+}
+
+.function{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    z-index: 0.2;
+}
+.function div{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 40px;
+    transform: translate(0, 50%);
+}
+
+.func1{
+    background: url('../assets/share.svg') no-repeat;
+}
+
+.func2{
+    background: url('../assets/collaborate.svg') no-repeat;
+}
+
+.func3{
+    background: url('../assets/store.svg') no-repeat;
+}
+
+.func4{
+    background: url('../assets/access.svg') no-repeat;
+}
+
+.func1:hover{
+    background: url('../assets/share_color.svg') no-repeat;
+}
+
+.func2:hover{
+    background: url('../assets/collaborate_color.svg') no-repeat;
+}
+
+.func3:hover{
+    background: url('../assets/store_color.svg') no-repeat;
+}
+
+.func4:hover{
+    background: url('../assets/access_color.svg') no-repeat;
+}
+
+.feature{
+    width: 100%;
+    height: 500px;
+
+}
+
+.feature_detail{
+    height: 100%;
+    width: 50%;
+    float: left;
+    
+    font-family: 'Glyphicons Halflings';
+    background-color: #FDF6F1;
+    color: #220A54;
+
+}
+.feature_detail h1{
+    padding: 40px;
+}
+.feature_detail p{
+    font-weight: lighter;
+    padding: 10px 40px 40px 40px;
+}
+
+.feature_img{
+    background: url('../assets/norde2.gif') no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+
+.feature2{
+    width: 100%;
+    height: 500px;
+
+}
+
+.feature_detail2{
+    height: 100%;
+    width: 50%;
+    float: left;
+    /* line-height: 40px; */
+    font-family: 'Glyphicons Halflings';
+    
+    background-color: #FFFFFF;
+    color: #220A54;
+}
+
+.feature_img2{
+    background: url('../assets/norde3.gif') no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    float: left;   
+}
+
+.feature_detail2 h1{
+    padding: 40px;
+}
+.feature_detail2 p{
+    font-weight: lighter;
+    padding: 10px 40px 40px 40px;
+}
